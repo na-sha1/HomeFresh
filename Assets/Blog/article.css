@@ -1,0 +1,29 @@
+article{
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 1.25in 8in 1.25in [end] 0.5in 1fr ;
+
+    padding: 0.5IN 0in;
+
+    background : linear-gradient(beige,white);
+}
+
+article * {grid-column: start / end;}
+
+@media (max-width: 9.5in) {
+    article {grid-template-columns: 1fr 5% [start] 13.1% 84.2% 13.1% [end] 5% 1fr ;}
+}
+.navbar{
+  padding-top: 0.5rem;
+  padding-left: 0.3rem;
+  padding-bottom: 0;
+  font-size:1.25rem;
+}
+.nav-item{
+  padding: 0 5%;
+}
+.logo{
+  position:relative;
+  padding-right: 0.7rem;
+  bottom: 0.4rem;
+  padding-left: 0.5rem;
+}

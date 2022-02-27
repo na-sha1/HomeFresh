@@ -1,0 +1,10 @@
+body * {
+    color:                     rgb(6, 61, 170) !important;
+    background:                rgb(3, 241, 43) !important;
+    outline:        0.25rem solid rgb(211, 15, 15) !important;
+}
+.debug-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
