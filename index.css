@@ -1,0 +1,174 @@
+h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    font-size: 5rem;
+  }
+  p
+  {
+    font-size: 2.5rem;
+    display: block;
+  }
+  hr{
+  
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+  }
+  .top-container{
+    background-color: #F9DB79;
+    height: auto;
+    margin-right: 0;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .main-img{
+    width: 14rem;
+    padding: 2rem 0;
+  }
+  .intro{
+    text-align: center;
+    width: 50rem;
+    margin: auto;
+    font-family: 'Esteban', serif;
+    font-weight: 400;
+  }
+  .recipes{
+    background-color: #F7ECDE;
+    padding-top: 2rem;
+  }
+  .mid-container{
+  
+    height: auto;
+    margin-right: 0;
+  }
+  .navbar{
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    padding-bottom: 0;
+    font-size:1.25rem;
+  }
+  .nav-item{
+    padding: 0 5%;
+  }
+  .logo{
+    position:relative;
+    padding-right: 0.7rem;
+    bottom: 0.4rem;
+    padding-left: 0.5rem;
+  }
+  .dishes{
+    width: 15rem;
+    border-radius: 50%;
+  }
+  .lasanga{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+  }
+  .cheesecake{
+    position: absolute;
+    top: 330px;
+    right: 1330px;
+  }
+  .gulab_jamun{
+    position: absolute;
+    width: 13rem;
+    top: 120px;
+    left: 320px;
+  }
+  .brownie{
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+  }
+  .pizza{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+  }
+  .lasanga:hover{
+      color: #111;
+      box-shadow: 0 0 50px lightgreen;
+  }
+  .pizza:hover{
+      color: #111;
+      box-shadow: 0 0 50px grey;
+  }
+  .brownie:hover{
+      color: #111;
+      box-shadow: 0 0 30px brown;
+  }
+  .gulab_jamun:hover{
+      color: #111;
+      box-shadow: 0 0 50px #54BAB9;
+  }
+  .cheesecake:hover{
+      color: #111;
+      box-shadow: 0 0 50px #ff4c68;
+  }
+  h3{
+    font-family:'Montserrat',sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    display: inline-block;
+  }
+  .details{
+    text-align: center;
+  }
+  .item-img{
+   width: 14rem;
+  }
+  .items{
+    padding: 2.5rem 0 0;
+    font-family: 'Merienda', cursive;
+  }
+  
+  .underline{
+    margin: 0;
+    width: 2px;
+    color: #000;
+  }
+  .footer{
+    background-color: #F7ECDE;
+    height: 4rem;
+  }
+  .fa{
+    width: 3rem;
+  }
+  .socials{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      background-color: #000;
+      padding-top: 0.7rem;
+      padding-bottom: 0.4rem;
+  }
+  
+  .socials li{
+      margin: 0 10px;
+  }
+  
+  .socials a{
+      text-decoration: none;
+      color: #fff;
+      border: 1.1px solid white;
+      padding: 5px;
+      border-radius: 50%;
+  }
+  
+  .socials a i{
+      font-size: 1.1rem;
+      width: 20px;
+      transition: color .4s ease;
+  }
+  
+  .socials a:hover i{
+      color: aqua;
+  }
+  
